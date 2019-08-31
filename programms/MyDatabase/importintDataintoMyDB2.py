@@ -14,6 +14,6 @@ for i in x:
         do.execute(sqlcommand)
         do.commit()
 
-sql="CREATE DATABASE test_new3;"
+sql="CREATE DATABASE test_new3;" #I added this for test
 do.execute(sql)
 con.close()
