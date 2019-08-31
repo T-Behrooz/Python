@@ -1,0 +1,12 @@
+from tkinter import *
+
+
+photo = """
+R0lGODdhEAAQAIcAAAAAAAEBAQICAgMDAwQEBAUFBQYGBgcHBwgICAkJCQoKCgsLCwwMDA0NDQ4O
+Dg8PDxAQEBERERISEhMTExQUFBUVFRYWFhcXFxgYGBkZGRoaGhsbGxwcHB0dHR4eHh8fHyAgICEh
+...
+AfjHtq1bAP/i/gPwry4AAP/yAtj77x+Af4ABAwDwrzAAAP8SA/j3DwCAfwAA/JsM4J/lfwD+/QMA
+4B8AAP9Ci/4HoLTpfwD+qV4NoHVAADs=
+"""
+
+photo = PhotoImage(data=photo)
